@@ -9,7 +9,8 @@
     .carrousel_parent-ecrans {
       display: flex;
       width: 100%;
-    
+      overflow-x: scroll; /* permet de scroller horizontalement */
+      scroll-behavior: smooth; /* animation de défilement */
     }
     .carrousel_ecran {
       width: 100%;
